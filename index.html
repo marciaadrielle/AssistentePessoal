@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+        <title> Assistente Pessoal</title>
+</head>
+<body>
+    <main>
+        <h1>Bem-vindo ao seu assistente pessoal!</h1>
+
+        <form action="">
+            <label for="api-key">Chave da API:</label><br>
+            <input type="password" id="api-key" name="api-key" placeholder="Digite sua chave API"><br>
+            <label for="pergunta">Sua pergunta:</label><br>
+            <input type="text" id="pergunta" name="pergunta" placeholder="Digite sua pergunta"><br>
+            <span class="botoes">
+                <button class="btn-pgt" type="submit">Perguntar</button>
+                <button class="btn-limp" type="reset">Apagar</button>
+            </span><br>
+            <div class="resposta-container hidden">
+            <label for="resposta-ia">Resposta da IA:</label><br>
+            <textarea placeholder="Resposta da IA" name="resposta-ia" id="resposta-ia"></textarea>
+            </div>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
